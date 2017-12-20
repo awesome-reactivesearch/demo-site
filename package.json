@@ -6,14 +6,16 @@
   "author": "metagrover",
   "license": "Apache-2.0",
   "scripts": {
-    "start": "webpack-dev-server --content-base . --history-api-fallback --hot --inline --progress --colors --port 8000",
+    "start": "webpack-dev-server --content-base . --history-api-fallback --hot --inline --progress --colors --port 0",
     "build": "NODE_ENV=production webpack -p"
   },
   "dependencies": {
     "@appbaseio/designkit": "^0.1.2",
+    "emotion": "^8.0.12",
     "emotion-theming": "^8.0.12",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-emotion": "^8.0.12"
   },
   "devDependencies": {
     "webpack": "^3.10.0",
